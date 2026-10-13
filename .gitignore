@@ -1,0 +1,43 @@
+# --- Python ---
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+
+# --- Env / secrets ---
+.env
+.env.*
+!.env.example
+*.bak
+*.orig
+*.rej
+
+# --- OS / editors ---
+.DS_Store
+Thumbs.db
+.idea/
+.cursor/
+*.swp
+*.swo
+*~
+
+# --- Logs / temp ---
+*.log
+tmp/
+temp/
+*.tmp
+.cache/
+
+# --- Eval arm stores: results/, results.greedy/, results/t1-s1/, ... ---
+results*/
+
+# --- Agent local ---
+.remember/
